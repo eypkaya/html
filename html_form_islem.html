@@ -6,9 +6,19 @@
     <body>
         <h1>üye kayit formu:</h1>
         <form name="kayit" action="kayit.php" method="get">
-            ad soyad: 
+            ad soyad: <br>
             <input type="text" name="adsaoyad" id="idadsoyad"
             size="20" maxlength="30" required> <!--required belireldiğimiz alanın boş bırakılmamasını sağlar-->
+            <br>
+            Email: <br>
+            <input type="email" name="email" id="email" required
+            >
+            <br>
+            Web sitesi: <br>
+            <input type="url" name="adres" id="adres">
+            <br>
+            Yaşiniz: <br>
+            <input type="number" name="yas" id="yas" required>
             <br>
             <input type="submit" value="tamam">
             <input type="reset" value="temizle">
